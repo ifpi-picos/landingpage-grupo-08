@@ -27,7 +27,7 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 Lista de pessoas que fizeram parte do projeto:
 
-* ** [Samuel Olivera]([https://github.com/linkParaPerfil])** - *Desenvolvedor*
+* ** [Samuel Oliveira](https://github.com/SamuelOliveira-M)** - *Desenvolvedor*
 * ** [Matheus da Silva](https://github.com/MatheusGODZILLA)** - *Desenvolvedor*
 * ** [Anderson Lourenço](https://github.com/Derson-Lourenco)** - *Desenvolvedor*
   
