@@ -2,7 +2,7 @@
 
 # landing page NEABI
 
-O objetivo principal desse projeto é A criação de uma landing page (página de destino) para o NEABI (Núcleo de Estudos das Identidades e Relações Étnico-Raciais) é um projeto de grande relevância. O NEABI desempenha um papel fundamental na promoção da compreensão e valorização das identidades e relações étnico-raciais, com ênfase nas populações afrodescendentes e indígenas, tanto dentro do IFPI (Instituto Federal de Educação, Ciência e Tecnologia do Piauí) como na comunidade externa.
+O objetivo principal desse projeto é a criação de uma landing page (página de destino) para o NEABI (Núcleo de Estudos das Identidades e Relações Étnico-Raciais) é um projeto de grande relevância. O NEABI desempenha um papel fundamental na promoção da compreensão e valorização das identidades e relações étnico-raciais, com ênfase nas populações afrodescendentes e indígenas, dentro do IFPI (Instituto Federal de Educação, Ciência e Tecnologia do Piauí).
 
 Esta landing page servirá como uma porta de entrada para comunicar de forma eficaz a missão, as ações e as competências do NEABI, bem como para sensibilizar o público sobre a importância do trabalho desse núcleo.
 
