@@ -27,13 +27,13 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 Lista de pessoas que fizeram parte do projeto:
 
-* ** Samuel** - *Desenvolvedor* - [Samuel Olivera]([https://github.com/linkParaPerfil](https://github.com/SamuelOliveira-M))
-* ** Matheus** - *Desenvolvedor* - [Matheus da Silva](https://github.com/MatheusGODZILLA)
-* ** Handerson** - *Desenvolvedor* - [Anderson Lourenço](https://github.com/Derson-Lourenco)
+* ** [Samuel Olivera]([https://github.com/linkParaPerfil](https://github.com/SamuelOliveira-M))** - *Desenvolvedor*
+* ** [Matheus da Silva](https://github.com/MatheusGODZILLA)** - *Desenvolvedor*
+* ** [Anderson Lourenço](https://github.com/Derson-Lourenco)** - *Desenvolvedor*
   
-* ** Ariany Farias** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-* ** Aurine Rocha** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
+* ** Ariany Farias** - *Documentação*
+* ** Aurine Rocha** - *Documentação*
+  
 ## 📄 Licença
 
 Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
