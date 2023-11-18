@@ -74,3 +74,127 @@ body {
     max-width: 60%;
     border-radius: 50%;
 }
+
+/* Estilos gerais do footer e do formulário */
+footer {
+    background-color: #5E422B;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: Roboto;
+}
+
+.t1 {
+    color: #F33535;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.t3 {
+    color: #F33535;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.p1 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    margin-right: 100px;
+}
+
+.footer-text {
+    margin-left: 80px;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.org {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.footer-text img {
+    margin-top: 10px; 
+    margin-bottom: 30px;
+
+}
+
+.footer-form {
+    text-align: left;
+    margin-bottom: 40px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.t2 {
+    color: #F33535;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(50% - 5px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+}
+
+.mensagem {
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+button {
+    background-color: #0DAA29;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.social {
+    border-top: #fff 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social img {
+    margin-top: 20px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.copyright {
+    align-items: center;
+    margin-top: 20px;
+}
