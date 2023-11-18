@@ -1,8 +1,127 @@
-body {
-    font-family: Roboto;
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --N: #2DB53B;
+    --E: #F31902;
+    --A: #EEF217;
+    --B: #0050C9; 
+    --I: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* header style */
+#CorFundo{
+    background-color: #E7AB79;
+}
+
+.navbar-brand img{
+    width: 80%;
+}
+
+#Link-Verm{
+    color: var(--E);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#LinkPrincipaL{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#LinkPrincipaL:hover{
+    color: var(--I);
+}
+
+
+/* ========================================== */
+
+/* section home */
+#inicio{
+    background-color: #E7AB79;
+}
+
+#inicio h2{
+    font-size: 35px;
+    color: var(--I);
+}
+
+.TituloPrincipal{
+    font-size: 140px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+span{
+    margin: -14px;
+}
+.N{
+    color: var(--N);
+}
+.E{
+    color: var(--E);
+    
+}
+.A{
+    color: var(--A);
+}
+.B{
+    color: var(--B);
+}
+.I{
+    color: var(--I);
+}
+
+#btn-primary {
+    color: white;
+    background-color: var(--N);
+    border: 1px solid var(--N);
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.ImgHome{
+    width: 80%;
+    margin-bottom: 30px;
+    
+}
+/* ============================================== */
+
+/* section sobre */
+#Sobre{
+    background-color: #EBD7C6;
+}
+
+.H1Principal{
+    font-size: 30px;
+}
+.TituloParagPrincipal{
+    font-size: 26px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#TextEsquerdo p{
+    font-size: 18px;
+}
+
+#TextDireito p{
+    font-size: 18px;
+    margin-bottom: -17px;
+}
+/* ========================================= */
+
+/* Section Eventos */
+
 
 /* Estilos gerais da sessão dos integrantes */
 .team{
@@ -198,3 +317,20 @@ button:hover {
     align-items: center;
     margin-top: 20px;
 }
+
+@media only screen and (max-width: 1000px) {
+    #card{
+      width: 43%;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .TituloPrincipal{
+        font-size: 100px;
+        font-weight: bold;
+        text-align: center;
+    }
+    #inicio h2{
+        font-size: 20px;
+    }
+  }
