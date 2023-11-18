@@ -39,3 +39,38 @@ body {
 .membro img {
     max-width: 80px; 
 }
+
+/* Estilos gerais da sessão dos coordenadores */
+.people-section {
+    background-color: #EBD7C6;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.person-card {
+    background-color: #B79E89;
+    text-align: center;
+    max-width: 400px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.coordname {
+    color: #fff;
+}
+
+.bio{
+    text-align: justify;
+    margin: 20px;
+}
+
+.person-card img {
+    padding-top: 10px;
+    max-width: 60%;
+    border-radius: 50%;
+}
