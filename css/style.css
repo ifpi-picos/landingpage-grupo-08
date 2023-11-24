@@ -103,6 +103,8 @@ span{
 
 .H1Principal{
     font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .TituloParagPrincipal{
     font-size: 26px;
@@ -112,6 +114,7 @@ span{
 
 #TextEsquerdo p{
     font-size: 18px;
+    margin-right: 50px;
 }
 
 #TextDireito p{
@@ -131,11 +134,12 @@ span{
 
 .t4 {
     display: flex;
-    padding-top: 30px;
+    padding-top: 50px;
     justify-content: center;
     align-items: center;
     font-size: 30px;
     font-weight: 700;
+    margin-top: 30px;
 }
 
 .membros {
@@ -171,27 +175,35 @@ span{
 .person-card {
     background-color: #B79E89;
     text-align: center;
-    max-width: 400px;
-    margin: 10px;
-    padding: 15px;
-    border: 1px solid #ccc;
+    max-width: 480px;
+    margin: 15px;
+    padding: 20px;
+    border: 4px solid #5E422B;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 
 .coordname {
     color: #fff;
+    margin-top: 10px;
+}
+
+.job{
+    text-align: left;
+    margin: 20px;
 }
 
 .bio{
-    text-align: justify;
+    text-align: left;
     margin: 20px;
 }
 
 .person-card img {
-    padding-top: 10px;
-    max-width: 60%;
+    max-width: 50%;
+    border: 4px solid #5E422B;
     border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
 }
 
 /* Estilos gerais do footer e do formulário */
@@ -204,14 +216,15 @@ footer {
 }
 
 .t1 {
-    color: #F33535;
+    color: #fff;
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .t3 {
-    color: #F33535;
+    color: #fff;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -257,7 +270,7 @@ footer {
 }
 
 .t2 {
-    color: #F33535;
+    color: #fff;
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -316,6 +329,13 @@ button:hover {
 .copyright {
     align-items: center;
     margin-top: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 1000px) {
