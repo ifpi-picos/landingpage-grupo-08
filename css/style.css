@@ -354,3 +354,51 @@ a {
         font-size: 20px;
     }
   }
+
+  @media only screen and (max-width: 600px) {
+    .t4{
+        text-align: center;
+    }
+    .membros {
+        flex-direction: column; 
+    }
+
+    .person-card {
+        max-width: 100%; 
+    }
+
+    .people-section{
+        flex-direction: column;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .p1 {
+        font-weight: normal;
+    }
+
+    .org {
+        align-items: center;
+    }
+
+    #org {
+        font-weight: bold;
+    }
+
+    .footer-form {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%; 
+    }
+}
