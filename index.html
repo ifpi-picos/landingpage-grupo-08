@@ -5,52 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    
-
     <link rel="stylesheet" href="style.css">
+
     <title>NEABI</title>
 </head>
 <body>
-    
-    <header id="CorFundo">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container">
-              <a class="navbar-brand" href="#">
-                <img src="img/neabi.png" alt="" />
-              </a>
-              <button
-                class="navbar-toggler"
-                type="button "
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-    
-              <div
-                class="collapse navbar-collapse justify-content-end"
-                id="navbarSupportedContent"
-              >
-                <div class="navbar-nav " id="menu-link">
-                  <a class="nav-link" id="Link-Verm" href="#">INSCREVA-SE</a>
-                  <a class="nav-link" id="LinkPrincipaL" href="#Sobre"
-                    >SOBRE</a
-                  >
-                  <a class="nav-link" id="LinkPrincipaL" href="#"
-                    >FINALIDADE</a
-                  >
-                  <a class="nav-link" id="LinkPrincipaL" href="#Eventos"
-                    >EVENTOS</a
-                  >
-                  <a class="nav-link" id="LinkPrincipaL" href="#form">CONTATO</a>
-                </div>
-              </div>
-            </div>
-          </nav>
-    </header>
+
+  <header>
+    <a class="centro" href=""><img src="/img/neabi.png" alt=""></a>
+		
+		<div id="content" class="centro">
+			<div class="image-container">
+				<ul>
+					<li><a style="color: rgba(204, 6, 6, 0.89);" href="#">INSCREVA-SE</a></li>
+					<li><a class="linkHover" href="#">SOBRE</a></li>
+					<li><a class="linkHover" href="#">FINALADE</a></li>
+					<li><a class="linkHover" href="#">EVENTOS</a></li>
+					<li><a class="linkHover" href="#">CONTATO</a></li>
+				</ul>
+			</div>
+			<button class="link-mobile" id="openNavBtn" onclick="closeNav()"><img src="/img/icons8-lista-com-marcadores-32.png" alt=""></button>
+		</div>
+	</header>
+
+  <div id="navModal">
+    <nav>
+			<a style="color: rgba(204, 6, 6, 0.89);" href="#">INSCREVA-SE</a>
+      <a href="#">EVENTOS</a>
+      <a href="#">CONTATO</a>
+    </nav>
+  </div>
 
     <main>
 
@@ -316,7 +300,7 @@
             <p>&copy; NEABI - Landing Page desenvolvida pelo <a href="https://github.com/ifpi-picos/landingpage-grupo-08">Grupo 08 do MAMBEE BOOTCAMP</a> - 2023</p>
         </div>
     </footer>
-
+    <script src="/js/modal/modalHeader.js"></script>
     <script src="./css/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
