@@ -438,12 +438,16 @@ a {
     }
   }
 
-  /* @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
     .t4{
         text-align: center;
     }
     .membros {
         flex-direction: column; 
+    }
+
+    #card{
+        overflow: scroll;
     }
 
     .person-card {
@@ -484,7 +488,7 @@ a {
     textarea {
         width: 100%; 
     }
-} */
+} 
 
 /* Header responsivo*/
 /* header {
