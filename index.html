@@ -1,307 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/bootstrap-5.0.2-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"href="./css/bootstrap-5.0.2-dist/css/bootstrap.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon"type="imagex/png"
+      href="img/neabi ap.png"
+      class="logo"
+    />
 
     <title>NEABI</title>
-</head>
-<body>
+  </head>
 
-  <header>
-    <a class="centro" href=""><img src="/img/neabi.png" alt=""></a>
-		
-		<div id="content" class="centro">
-			<div class="image-container">
-				<ul>
-					<li><a style="color: rgba(204, 6, 6, 0.89);" href="#">INSCREVA-SE</a></li>
-					<li><a class="linkHover" href="#">SOBRE</a></li>
-					<li><a class="linkHover" href="#">FINALADE</a></li>
-					<li><a class="linkHover" href="#">EVENTOS</a></li>
-					<li><a class="linkHover" href="#">CONTATO</a></li>
-				</ul>
-			</div>
-			<button class="link-mobile" id="openNavBtn" onclick="closeNav()"><img src="/img/icons8-lista-com-marcadores-32.png" alt=""></button>
-		</div>
-	</header>
+  <body>
+    <header id="CorFundo">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/neabi.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button "
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon b"></span>
+          </button>
 
-  <div id="navModal">
-    <nav>
-			<a style="color: rgba(204, 6, 6, 0.89);" href="#">INSCREVA-SE</a>
-      <a href="#">EVENTOS</a>
-      <a href="#">CONTATO</a>
-    </nav>
-  </div>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <div class="navbar-nav" id="menu-link">
+              <a class="nav-link" id="Link-Verm" href="#footer">INSCREVA-SE</a>
+              <a class="nav-link" id="LinkPrincipaL" href="#Sobre"
+                >SOBRE</a
+              >
+              <a class="nav-link" id="LinkPrincipaL" href="#Finalidades"
+                >FINALADE</a
+              >
+              <a class="nav-link" id="LinkPrincipaL" href="#Eventos">EVENTOS</a>
+              <a class="nav-link" id="LinkPrincipaL" href="#footer">CONTATO</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <main>
+      <!-- Section Home -->
+      <section class="container-fluid" id="inicio">
+        <div class="container pt-5 pb-5">
+          <div class="teste row">
+            <div class="col-lg-6 d-flex flex-column justify-content-center">
+              <h1 class="TituloPrincipal mp-5">
+                <span class="N">N</span>
+                <span class="E">E</span>
+                <span class="A">A</span>
+                <span class="B">B</span>
+                <span class="I">I</span>
+              </h1>
 
-        <!-- Section Home -->
-        <section class="container-fluid" id="inicio">
-            <div class="container pt-5 pb-5">
-                <div class="row d-flex align-items-center">
-                  <div class="col-lg-6 d-flex flex-column justify-content-center">
-                    <h1 class="TituloPrincipal mp-5">
-                      <span class="N">N</span>
-                      <span class="E">E</span>
-                      <span class="A">A</span>
-                      <span class="B">B</span>
-                      <span class="I">I</span>
-                    </h1>
-      
-                    <h2 class="centro" >
-                        Núcleo de Estudos e Pesquisas Afro-brasileiros e Indígenas
-                    </h2>
-      
-                    <div class="row d-flex justify-content-center">
-                      <div class="col-lg-10 d-flex justify-content-center text-center" >
-                        <a class="btn btn-primary w-50 mt-4 d-none d-md-block d-flex  " id="btn-primary" href="#Contato"
-                          >Entre em Contato</a
-                        >
-                      </div>
-                    </div>
-                    
-                  </div>
-                  <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
-                    <img src="img/mao.png" alt="" class="ImgHome" />
-                  </div>
+              <h2 class="">
+                Núcleo de Estudos e Pesquisas Afro-brasileiros e Indígenas
+              </h2>
+
+              <div class="row d-flex justify-content-center">
+                <div
+                  class="col-lg-10 d-flex justify-content-center text-center"
+                >
+                  <a
+                    class="btn btn-primary w-50"
+                    id="btn-primary"
+                    href="#footer"
+                    >Entre em Contato</a
+                  >
                 </div>
               </div>
-        </section>
+            </div>
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center align-items-center"
+            >
+              <img src="img/mao.png" alt="" class="ImgHome" />
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <!-- Section sobre -->
+      <section class="container-fluid" id="Sobre">
+        <div class="container p-3">
+          <div class="text-center">
+            <h1 class="H1Principal pb-3">
+              Explorando sua Natureza e Missão no IFPI
+            </h1>
+          </div>
+          <div class="row T pb-5">
+            <div class="col-lg-6 c" id="TextEsquerdo">
+              <div>
+                <h2 class="TituloParagPrincipal">O que somos?</h2>
+                <p>
+                  O NEABI é um setor consultivo vinculado à Reitoria, à
+                  Pró-Reitoria de Ensino e à Pró-Reitoria de Extensão do IFPI
+                  (Instituto Federal de Educação, Ciência e Tecnologia do
+                  Piauí), com núcleos localizados em cada um dos campi (campi
+                  são unidades ou campi do instituto).
+                </p>
+              </div>
+              <div>
+                <h2 class="TituloParagPrincipal" id="Finalidades">Nossas Finalidades</h2>
+                <p>
+                  O NEABI tem por finalidade nortear ações de ensino, pesquisa e
+                  extensão relacionadas às questões étnico-raciais, com um foco
+                  especial nas populações afrodescendentes e indígenas. Isso
+                  significa que o NEABI trabalha para promover uma maior
+                  compreensão e valorização das identidades e relações
+                  étnico-raciais no âmbito do IFPI e também na comunidade
+                  externa.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 c" id="TextDireito">
+              <div>
+                <h2 class="TituloParagPrincipal">As Competências do NEABI</h2>
+                <p>
+                  Estimular a produção científica, extensionista e pedagógica
+                  relacionada a questões étnico-raciais no IFPI, promovendo
+                  discussões sobre temas correlatos.
+                </p>
+                <br />
+                <p>
+                  Participar no desenvolvimento de ações afirmativas de caráter
+                  universal, contribuindo para a implementação de leis que
+                  regulamentam o ensino sobre história e cultura afro-brasileira
+                  e indígena no IFPI.
+                </p>
+                <br />
+                <p>
+                  Definir e atuar na consolidação das diretrizes de ensino,
+                  pesquisa e extensão relacionadas às temáticas étnico-raciais,
+                  promovendo uma cultura de educação para a convivência e a
+                  alteridade.
+                </p>
+                <br />
+                <p>
+                  Promover encontros de reflexão e capacitação de servidores,
+                  comunidade acadêmica e público externo sobre o conhecimento e
+                  valorização da história dos povos africanos e indígenas
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- Section sobre -->
-        <section class="container-fluid" id="Sobre">
-            <div class="container p-3 ">
-                <div class="text-center">
-                    <h1 class="H1Principal pb-3"> Explorando sua Natureza e Missão no IFPI</h1>
-                </div>
-                <div class="row T  pb-5">
-                  <div class="col-lg-6 c" id="TextEsquerdo">
-                    <div>
-                        <h2 class="TituloParagPrincipal">O que somos? </h2>
-                        <p>
-                            O NEABI é um setor consultivo vinculado à Reitoria, à Pró-Reitoria de Ensino e à Pró-Reitoria de Extensão do IFPI (Instituto Federal de Educação, Ciência e Tecnologia do Piauí), com núcleos localizados em cada um dos campi (campi são unidades ou campi do instituto).
-                        </p>
+      <section class="container-fluid p-3 pb-5" id="Eventos">
+        <div class="container">
+          <div class="text-center">
+            <h1 class="H1Principal pb-5">
+              Trilhando os Eventos e Conquistas em Prol da Diversidade
+              Étnico-racial
+            </h1>
+          </div>
+
+          <div class="row">
+            <!-- Carousel 1 -->
+            <div class="col-lg-6" id="carousel1">
+                <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                    <!-- Indicadores -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                    </ol>
+        
+                    <!-- Slides -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 carousel-img" src="./img/ImgCar1.JPG" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 carousel-img" src="./img/ImgCar2.JPG" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 carousel-img" src="./img/ImgCar3.JPG" alt="Third slide">
+                        </div>
                     </div>
-                    <div>
-                        <h2 class="TituloParagPrincipal">Nossas Finalidades</h2>
-                        <p>
-                            O NEABI tem por finalidade nortear ações de ensino, pesquisa e extensão relacionadas às questões étnico-raciais, com um foco especial nas populações afrodescendentes e indígenas. Isso significa que o NEABI trabalha para promover uma maior compreensão e valorização das identidades e relações étnico-raciais no âmbito do IFPI e também na comunidade externa.
-                        </p>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 c" id="TextDireito">
-                    <div>
-                        <h2 class="TituloParagPrincipal"> As Competências do NEABI</h2>
-                        <p>
-                            Estimular a produção científica, extensionista e pedagógica relacionada a questões étnico-raciais no IFPI, promovendo discussões sobre temas correlatos.
-                        </p><br>
-                        <p>
-                            Participar no desenvolvimento de ações afirmativas de caráter universal, contribuindo para a implementação de leis que regulamentam o ensino sobre história e cultura afro-brasileira e indígena no IFPI.
-                        </p><br>
-                        <p>
-                            Definir e atuar na consolidação das diretrizes de ensino, pesquisa e extensão relacionadas às temáticas étnico-raciais, promovendo uma cultura de educação para a convivência e a alteridade.
-                        </p><br>
-                        <p>
-                            Promover encontros de reflexão e capacitação de servidores, comunidade acadêmica e público externo sobre o conhecimento e valorização da história dos povos africanos e indígenas
-                        </p>
-                    </div>
-                  </div>
+        
+                    <!-- Controles -->
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
                 </div>
             </div>
-        </section>
-
-        <section class="container-fluid" id="Eventos">
-            <div class="container mt-3 ">
-                <div class="text-center">
-                    <h1 class="H1Principal pb-3"> Trilhando os Eventos e Conquistas em Prol da Diversidade Étnico-racial</h1>
+            <div class="col-lg-6 d-flex align-items-center" id="">
+                <div>
+                    <h2 class="TituloParagPrincipal">Semana Da Consciencia Negra 2019</h2>
+                    <p class="">
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+                    </p>
                 </div>
-
-                <div class="row">
-                    <!-- Carousel 1 -->
-                  <div class="col-lg-6" id="">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img class="d-block w-100" src="./img/ImgCar1.JPG" alt="First slide">
-                          </div>
-                          <div class="carousel-item">
-                            <img class="d-block w-100" src="./img/ImgCar2.JPG" alt="Second slide">
-                          </div>
-                          <div class="carousel-item">
-                            <img class="d-block w-100" src="./img/ImgCar3.JPG" alt="Third slide">
-                          </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Next</span>
-                        </a>
-                      </div>
-                  </div>
-                  <div class="col-lg-6" id="">
-                    <div>
-                        <h2 class="TituloParagPrincipal">Semana Da Consciencia Negra 2019</h2>
-                        <p>
-                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
-                        </p>
-                    </div>
-                  </div>
-                </div>
-
-                
-                <div class="row">
-                    <div class="col-lg-6" id="">
-                        <div>
-                            <h2 class="TituloParagPrincipal">Exposição Xirê dos Orixás</h2>
-                            <p>
-                                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
-                            </p>
-                        </div>
-                    </div>
-
-                     <!-- Carousel 2 -->
-                    <div class="col-lg-6" id="">
-                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <img class="d-block w-100" src="./img/ImgCar3.JPG" alt="First slide">
-                              </div>
-                              <div class="carousel-item">
-                                <img class="d-block w-100" src="./img/ImgCar2.JPG" alt="Second slide">
-                              </div>
-                              <div class="carousel-item">
-                                <img class="d-block w-100" src="./img/ImgCar1.JPG" alt="Third slide">
-                              </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="sr-only">Next</span>
-                            </a>
-                          </div>
-                    </div>
-                </div>
-
             </div>
-        </section>
-    </main>
-    <section class="team">
+        </div>
+        <div class="mb-5"></div>
+        <!-- Carousel 2 -->
+        <div class="row flex-lg-row flex-column-reverse">
+            <div class="col-lg-6 d-flex align-items-center" id="carousel2">
+                <div>
+                    <h2 class="TituloParagPrincipal">Exposição Xirê dos Orixás</h2>
+                    <p>
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+                    </p>
+                </div>
+            </div>
+        
+            <div class="col-lg-6" id="">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                    <!-- Indicadores -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                    </ol>
+        
+                    <!-- Slides -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 carousel-img" src="./img/ImgCar3.JPG" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 carousel-img" src="./img/ImgCar2.JPG" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 carousel-img" src="./img/ImgCar1.JPG" alt="Third slide">
+                        </div>
+                    </div>
+        
+                    <!-- Controles -->
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+      </section>
+
+      <section class="team p-3">
         <h1 class="t4">Nossos Membros do NEABI no IFPI</h1>
-    
+  
         <div class="membros">
-            <div class="membro">
-                <img src="img/team.png" alt="">
-                <h5>8 Alunos do Ensino Médio</h5>
+          <div class="membro">
+            <img src="img/team.png" alt="" />
+            <h5>8 Alunos do Ensino Médio</h5>
+          </div>
+  
+          <div class="membro">
+            <img src="img/team.png" alt="" />
+            <h5>8 Docentes</h5>
+          </div>
+  
+          <div class="membro">
+            <img src="img/team.png" alt="" />
+            <h5>1 da Comunidade externa</h5>
+          </div>
+        </div>
+      </section>
+
+      <section id="CardContainer" class="team ">
+        <section class="container" id="membros">
+
+          <div class="team row text-center justify-content-center" id="RowCard">
+
+            <div class="col-lg-6 col-md-12 mb-4" id="card">
+              <img src="img/image 13.png" alt="" />
+              <h3>Coordenadora Geral</h3>
+              <h2>Aurine Carvalho Rocha</h2>
+              <p>
+                Graduação em Educação Física pela Universidade Estadual do Piauí (UESPI) e Mestrado em Educação Profissional pelo Instituto Federal do Rio Grande do Norte.Atualmente professora de Educação Física no Instituto Federal de Educação, Ciência e Tecnologia (IFPI) Campus Picos. Pesquisadora no Grupo Rede PROEF/IFMA. Coordenadora e Pesquisadora no Núcleo de Estudos Afro-brasileiros e Indígenas (NEABI) no IFPI campus Picos. Possui cursos de formação em Ações Afirmativas e Educação para as Relações Étnico raciais na Educação Básica.
+              </p>
+            </div>
+
+            <div class="col-lg-6 col-md-12 mb-4" id="card">
+              <img src="img/image 12.png" alt="" />
+              <h3>Coordenador Adjunto</h3>
+              <h2>João Farias</h2>
+              <p>
+                Possui graduação, mestrado e doutorado em Filosofia. Atualmente é professor de Filosofia no Instituto Federal de Educação, Ciência e Tecnologia (IFPI) Campus Picos. Pesquisador no NUPHA (Núcleo de Pesquisa Hannah Arendt) da Universidade Federal do Piauí (UFPI). Coordenador adjunto e Pesquisador no Núcleo de Estudos Afro-brasileiros e Indígenas (NEABI) no IFPI campus Picos. As suas pesquisas atuais estão no âmbito da filosofia política contemporânea, economia e política e os impactos da tecnologia na vida social e pública.
+              </p>
             </div>
             
-            <div class="membro">
-                <img src="img/team.png" alt="">
-                <h5>8 Docentes</h5>
-            </div>
+          </div>
+        </section>
 
-            <div class="membro">
-                <img src="img/team.png" alt="">
-                <h5>1 da Comunidade externa</h5>
-            </div>
-        </div>
-    </section>
+      </section>
 
-    <section class="people-section">
-      <div class="person-card">
-        <img src="img/image 13.png" alt="Aurine Carvalho Rocha">
-        <h2 class="coordname">Aurine Carvalho Rocha</h2>
-        <h2>Coordenadora Geral</h2>
+    </main>
 
-        <h5 class="job"><li>Formação:</li></h5>
-        <p class="bio">Graduação em Educação Física pela Universidade Estadual do Piauí (UESPI) e Mestrado em Educação Profissional pelo Instituto Federal do Rio Grande do Norte.</p>
+    <footer id="footer">
+      <h1 class="t1" id="form">Quer saber mais?</h1>
+      <div class="footer-content">
+        <div class="footer-text">
+          <h2 class="t3">Ficou interessado no nosso projeto?</h2>
+          <p class="p1">
+            Entre em contato conosco para obter mais informações:
+          </p>
+          <p class="p1">
+            Basta preencher o formulário ao lado ou nos contatar através das
+            redes sociais.
+          </p>
 
-        <h5 class="job"><li>Carreira:</li></h5>
-        <p class="bio">Atualmente professora de Educação Física no Instituto Federal de Educação, Ciência e Tecnologia (IFPI) Campus Picos.</p>
-
-        <p class="bio">Pesquisadora no Grupo Rede PROEF/IFMA. Coordenadora e Pesquisadora no Núcleo de Estudos Afro-brasileiros e Indígenas (NEABI) no IFPI campus Picos.</p>
-
-        <p class="bio">Possui cursos de formação em Ações Afirmativas e Educação para as Relações Étnico raciais na Educação Básica.</p>
-    </div>
-
-    <div class="person-card">
-        <img src="img/image 12.png" alt="João Farias">
-        <h2 class="coordname">João Farias</h2>
-        <h2>Coordenador Adjunto</h2>
-        <h5 class="job"><li>Formação:</li></h5>
-        <p class="bio">Possui graduação, mestrado e doutorado em Filosofia.</p>
-
-        <h5 class="job"><li>Carreira:</li></h5>
-        <p class="bio">Atualmente é professor de Filosofia no Instituto Federal de Educação, Ciência e Tecnologia (IFPI) Campus Picos.</p>
-
-        <p class="bio">Pesquisador no NUPHA (Núcleo de Pesquisa Hannah Arendt) da Universidade Federal do Piauí (UFPI).</p>
-
-        <p class="bio">Coordenador adjunto e Pesquisador no Núcleo de Estudos Afro-brasileiros e Indígenas (NEABI) no IFPI campus Picos.</p>
-
-        <p class="bio">As suas pesquisas atuais estão no âmbito da filosofia política contemporânea, economia e política e os impactos da tecnologia na vida social e pública.</p>
-    </div>
-    </section>
-
-    <footer>
-        <h1 class="t1" id="form">Quer saber mais?</h1>
-        <div class="footer-content">
-            <div class="footer-text">
-                <h2 class="t3">Ficou interessado no nosso projeto?</h2>
-                <p class="p1">Entre em contato conosco para obter mais informações:</p>
-                <p class="p1">Basta preencher o formulário ao lado ou nos contatar através das redes sociais.</p>
-                
-                <p class="p1" id="org">Organização:</p>    
-                <div class="org">
-                    <img src="img/ifpi.png" alt="IFPI">
-                    <img src="img/neabi.png" alt="NEABI">
-                    <img src="img/mambee.png" alt="MAMBEE">
-                </div>
-            </div>
-
-            <div class="footer-form">
-                <form>
-                    <h2 class="t2">Mande sua mensagem:</h2>
-                    <div class="form-row">
-                        <input type="text" id="nome" name="nome" value="Nome" required>
-                        <input type="email" id="email" name="email" value="Email" required>
-                    </div>
-
-                    <textarea class="mensagem" id="mensagem" name="mensagem" rows="4" required>Escreva sua mensagem</textarea>
-
-                    <button type="submit">Enviar</button>
-                </form>
-            </div>
+          <p class="p1" id="org">Organização:</p>
+          <div class="org">
+            <img src="img/ifpi.png" alt="IFPI" />
+            <img src="img/neabi.png" alt="NEABI" />
+            <img src="img/mambee.png" alt="MAMBEE" />
+          </div>
         </div>
 
-        <div class="social">
-            <img src="img/whatsapp.png" alt="WhatsApp">
-            <img src="img/instagram.png" alt="Instagram">
-        </div>
+        <div class="footer-form">
+          <form>
+            <h2 class="t2">Mande sua mensagem:</h2>
+            <div class="form-row">
+              <input type="text" id="nome" name="nome" value="Nome" required />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                value="Email"
+                required
+              />
+            </div>
 
-        <div class="copyright">
-            <p>&copy; NEABI - Landing Page desenvolvida pelo <a href="https://github.com/ifpi-picos/landingpage-grupo-08">Grupo 08 do MAMBEE BOOTCAMP</a> - 2023</p>
+            <textarea
+              class="mensagem"
+              id="mensagem"
+              name="mensagem"
+              rows="4"
+              required
+            >
+Escreva sua mensagem</textarea
+            >
+
+            <button type="submit">Enviar</button>
+          </form>
         </div>
+      </div>
+
+      <div class="social">
+        <img src="img/whatsapp.png" alt="WhatsApp" />
+        <img src="img/instagram.png" alt="Instagram" />
+      </div>
+
+      <div class="copyright">
+        <p>
+          &copy; NEABI - Landing Page desenvolvida pelo
+          <a href="https://github.com/ifpi-picos/landingpage-grupo-08"
+            >Grupo 08 do MAMBEE BOOTCAMP</a
+          >
+          - 2023
+        </p>
+      </div>
     </footer>
-    <script src="/js/modal/modalHeader.js"></script>
-    <script src="./css/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
-</body>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
 </html>
