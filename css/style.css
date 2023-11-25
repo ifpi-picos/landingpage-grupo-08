@@ -51,6 +51,7 @@
 #inicio h2{
     font-size: 35px;
     color: var(--I);
+    text-align: center;
 }
 
 .TituloPrincipal{
