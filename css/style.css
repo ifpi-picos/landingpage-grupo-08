@@ -489,7 +489,15 @@ a {
     textarea {
         width: 100%; 
     }
-} 
+}
+
+@media only screen and (max-width: 1200px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 10px;
+    }
+}
 
 /* Header responsivo*/
 /* header {
