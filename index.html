@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet"href="./css/bootstrap-5.0.2-dist/css/bootstrap.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon"type="imagex/png"
@@ -31,7 +32,9 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon b"></span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-justify" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"/>
+            </svg>
           </button>
 
           <div
@@ -173,12 +176,12 @@
           <div class="row">
             <!-- Carousel 1 -->
             <div class="col-lg-6" id="carousel1">
-                <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
                     <!-- Indicadores -->
                     <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                      <li data-target="#carouselExampleFade1" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleFade1" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleFade1" data-slide-to="2"></li>
                     </ol>
         
                     <!-- Slides -->
@@ -195,10 +198,10 @@
                     </div>
         
                     <!-- Controles -->
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     </a>
                 </div>
@@ -226,12 +229,12 @@
             </div>
         
             <div class="col-lg-6" id="">
-                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
                     <!-- Indicadores -->
                     <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                      <li data-target="#carouselExampleFade2" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleFade2" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleFade2" data-slide-to="2"></li>
                     </ol>
         
                     <!-- Slides -->
@@ -248,10 +251,10 @@
                     </div>
         
                     <!-- Controles -->
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     </a>
                 </div>
@@ -388,10 +391,10 @@ Escreva sua mensagem</textarea
       </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
   </body>
 </html>
